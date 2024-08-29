@@ -28,7 +28,7 @@
 
 | **Login** | **Home** | **Registro Usuario** |
 |---|---|---|
-| ![Login](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) | ![Home](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_01_Home.png) | ![Registro_Usuario](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_02_NuevoUsuario.png) |
+| ![Pantalla_00_Login](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) | ![Home](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_01_Home.png) | ![Registro_Usuario](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_02_NuevoUsuario.png) |
 
 | **Nuevo Producto** | **Buscar Producto** | **Listado de Productos** |
 |---|---|---|
