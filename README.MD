@@ -36,7 +36,7 @@
 
 | **Nuevo Vale** | **Buscar Vale** | **Listado de Vales** |
 |---|---|---|
-| ![Nuevo_Vale](https://github.com/CarlosOC/ControlPaniol/blob/main/imagenes/Pantalla_06_NuevoVale.png) | ![*Buscar_Vale](https://github.com/CarlosOC/ControlPaniol/blob/main/imagenes/Pantalla_07_BuscarVale.png) | ![Listado_Vales](https://github.com/CarlosOC/ControlPaniol/blob/main/imagenes/Pantalla_08_ListadoVale.png) |
+| ![Nuevo_Vale](https://github.com/CarlosOC/ControlPaniol/blob/main/imagenes/Pantalla_06_NuevoVale.png) | ![*Buscar_Vale](https://github.com/CarlosOC/ControlPaniol/blob/main/imagenes/Pantalla_07_BuscarVale.png) | ![Listado_Vales](https://github.com/CarlosOC/ControlPaniol/blob/main/imagenes/Pantalla_08_ListadoVales.png) |
 
 | **Nuevo Personal Autorizado** | **Buscar Personal Autorizado** | **Listado de Personal Autorizado** |
 |---|---|---|
