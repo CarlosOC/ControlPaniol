@@ -32,12 +32,12 @@
 
 | **Nuevo Producto** | **Buscar Producto** | **Listado de Productos** |
 |---|---|---|
-| ![Nuevo_Producto](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) | ![Buscar_Producto](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) | ![Listado_Productos](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) |
+| ![Nuevo_Producto](https://github.com/CarlosOC/ControlPaniol/blob/main/imagenes/Pantalla_00_Login.png) | ![Buscar_Producto](https://github.com/CarlosOC/ControlPaniol/blob/main/imagenes/Pantalla_00_Login.png) | ![Listado_Productos](https://github.com/CarlosOC/ControlPaniol/blob/main/imagenes/Pantalla_00_Login.png) |
 
 | **Nuevo Vale** | **Buscar Vale** | **Listado de Vales** |
 |---|---|---|
-| ![Nuevo_Vale](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) | ![*Buscar_Vale](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) | ![Listado_Vales](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) |
+| ![Nuevo_Vale](https://github.com/CarlosOC/ControlPaniol/blob/main/imagenes/Pantalla_00_Login.png) | ![*Buscar_Vale](https://github.com/CarlosOC/ControlPaniol/blob/main/imagenes/Pantalla_00_Login.png) | ![Listado_Vales](https://github.com/CarlosOC/ControlPaniol/blob/main/imagenes/Pantalla_00_Login.png) |
 
 | **Nuevo Personal Autorizado** | **Buscar Personal Autorizado** | **Listado de Personal Autorizado** |
 |---|---|---|
-| ![Nuevo_Autorizado](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) | ![Buscar_Autorizado](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) | ![Listado_Personal_Autorizado](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) |
+| ![Nuevo_Autorizado](https://github.com/CarlosOC/ControlPaniol/blob/main/imagenes/Pantalla_00_Login.png) | ![Buscar_Autorizado](https://github.com/CarlosOC/ControlPaniol/blob/main/imagenes/Pantalla_00_Login.png) | ![Listado_Personal_Autorizado](https://github.com/CarlosOC/ControlPaniol/blob/main/imagenes/Pantalla_00_Login.png) |
