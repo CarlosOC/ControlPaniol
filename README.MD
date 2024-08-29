@@ -32,12 +32,12 @@
 
 | **Nuevo Producto** | **Buscar Producto** | **Listado de Productos** |
 |---|---|---|
-| !Nuevo_Producto](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) | ![Buscar_Producto](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) | ![Listado_Productos](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) |
+| ![Nuevo_Producto](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) | ![Buscar_Producto](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) | ![Listado_Productos](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) |
 
 | **Nuevo Vale** | **Buscar Vale** | **Listado de Vales** |
 |---|---|---|
-| ![Tabla_Puntajes](https://github.com/CarlosOC/TaTeTi/blob/main/ScreenShot/Tabla_Puntajes.png) | ![Ganador](https://github.com/CarlosOC/TaTeTi/blob/main/ScreenShot/Ganador.png) | ![About](https://github.com/CarlosOC/TaTeTi/blob/main/ScreenShot/About.png) |
+| ![Nuevo_Vale](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) | ![*Buscar_Vale](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) | ![Listado_Vales](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) |
 
 | **Nuevo Personal Autorizado** | **Buscar Personal Autorizado** | **Listado de Personal Autorizado** |
 |---|---|---|
-| ![Tabla_Puntajes](https://github.com/CarlosOC/TaTeTi/blob/main/ScreenShot/Tabla_Puntajes.png) | ![Ganador](https://github.com/CarlosOC/TaTeTi/blob/main/ScreenShot/Ganador.png) | ![About](https://github.com/CarlosOC/TaTeTi/blob/main/ScreenShot/About.png) |
+| ![Nuevo_Autorizado](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) | ![Buscar_Autorizado](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) | ![Listado_Personal_Autorizado](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) |
