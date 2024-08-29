@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QDialog_AgregarVale</class>
+ <widget class="QDialog" name="QDialog_AgregarVale">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1265</width>
+    <height>613</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>0</width>
+    <height>0</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>16777215</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_5">
+   <item row="3" column="0" rowspan="2" colspan="2">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QGroupBox" name="groupBox_autorizado">
+       <property name="title">
+        <string>Autorizado:</string>
+       </property>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="2" column="0">
+           <widget class="QLineEdit" name="lineEdit_autorizado_nombre"/>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="label_autorizado_legajo">
+            <property name="text">
+             <string>Legajo:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QLineEdit" name="lineEdit_autorizado_legajo"/>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLabel" name="label_autorizado_apellido">
+            <property name="text">
+             <string>Apellido:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="lineEdit_autorizado_apellido"/>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_autorizado_nombre">
+            <property name="text">
+             <string>Nombre:</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item row="5" column="0">
+    <widget class="QGroupBox" name="groupBox_autorizante">
+     <property name="title">
+      <string>Autorizante</string>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_3">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_autorizante_nombre">
+        <property name="text">
+         <string>Nombre:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="label_autorizante_apellido">
+        <property name="text">
+         <string>Apellido:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_autorizante_legajo">
+        <property name="text">
+         <string>Legajo:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLineEdit" name="lineEdit_autorizante_nombre"/>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLineEdit" name="lineEdit_autorizante_apellido"/>
+      </item>
+      <item row="1" column="2">
+       <widget class="QLineEdit" name="lineEdit_autorizante_legajo"/>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="0" colspan="2">
+    <widget class="QTableWidget" name="tableWidget_items">
+     <property name="frameShadow">
+      <enum>QFrame::Plain</enum>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="alternatingRowColors">
+      <bool>true</bool>
+     </property>
+     <property name="selectionMode">
+      <enum>QAbstractItemView::NoSelection</enum>
+     </property>
+     <property name="sortingEnabled">
+      <bool>true</bool>
+     </property>
+     <attribute name="verticalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="2">
+    <layout class="QGridLayout" name="gridLayout_4">
+     <item row="1" column="1">
+      <widget class="QLabel" name="label_codigodebarra">
+       <property name="text">
+        <string>Codigo de Barra:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="6">
+      <widget class="QLineEdit" name="lineEdit_marca"/>
+     </item>
+     <item row="1" column="6">
+      <widget class="QLabel" name="label_marca">
+       <property name="text">
+        <string>Marca:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_nVale">
+       <property name="text">
+        <string>Vale N°:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="5">
+      <widget class="QLineEdit" name="lineEdit_producto"/>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLabel" name="label_cantidad">
+       <property name="text">
+        <string>Cantidad:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="10">
+      <widget class="QComboBox" name="comboBox_turno">
+       <item>
+        <property name="text">
+         <string>TM</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>TT</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>TN</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="3" column="9">
+      <widget class="QLineEdit" name="lineEdit_linea_sector"/>
+     </item>
+     <item row="3" column="11">
+      <widget class="QPushButton" name="pushButton_agregarItem">
+       <property name="text">
+        <string>Agregar Item</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="5">
+      <widget class="QLabel" name="label_producto">
+       <property name="text">
+        <string>Producto:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLabel" name="label_NVale">
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="lineEdit_codigodebarra"/>
+     </item>
+     <item row="1" column="9">
+      <widget class="QLabel" name="label_linea_sector">
+       <property name="text">
+        <string>Linea/Sector:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="3">
+      <widget class="QSpinBox" name="spinBox_cantidad"/>
+     </item>
+     <item row="3" column="8">
+      <widget class="QDateEdit" name="dateEdit_fecha">
+       <property name="dateTime">
+        <datetime>
+         <hour>0</hour>
+         <minute>0</minute>
+         <second>0</second>
+         <year>2019</year>
+         <month>1</month>
+         <day>1</day>
+        </datetime>
+       </property>
+       <property name="currentSection">
+        <enum>QDateTimeEdit::DaySection</enum>
+       </property>
+       <property name="displayFormat">
+        <string>dd/MM/yyyy</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_sap">
+       <property name="text">
+        <string>SAP:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLineEdit" name="lineEdit_sap"/>
+     </item>
+     <item row="1" column="10">
+      <widget class="QLabel" name="label_turno">
+       <property name="text">
+        <string>Turno:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="8">
+      <widget class="QLabel" name="label_fecha">
+       <property name="text">
+        <string>Fecha:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="7">
+      <widget class="QLabel" name="label_productoSHE">
+       <property name="text">
+        <string>¿Es un articulo SHE?</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="7">
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QRadioButton" name="radioButton_si">
+         <property name="text">
+          <string>Si</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_no">
+         <property name="text">
+          <string>No</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item row="6" column="0">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <spacer name="horizontalSpacer">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_AgregarVale">
+       <property name="text">
+        <string>Agregar Vale</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_Cancelar">
+       <property name="text">
+        <string>Cancelar</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <tabstops>
+  <tabstop>lineEdit_sap</tabstop>
+  <tabstop>lineEdit_producto</tabstop>
+  <tabstop>dateEdit_fecha</tabstop>
+  <tabstop>lineEdit_linea_sector</tabstop>
+  <tabstop>comboBox_turno</tabstop>
+  <tabstop>pushButton_agregarItem</tabstop>
+  <tabstop>lineEdit_autorizado_nombre</tabstop>
+  <tabstop>lineEdit_autorizado_apellido</tabstop>
+  <tabstop>lineEdit_autorizado_legajo</tabstop>
+  <tabstop>lineEdit_autorizante_nombre</tabstop>
+  <tabstop>lineEdit_autorizante_apellido</tabstop>
+  <tabstop>lineEdit_autorizante_legajo</tabstop>
+  <tabstop>pushButton_AgregarVale</tabstop>
+  <tabstop>pushButton_Cancelar</tabstop>
+  <tabstop>tableWidget_items</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

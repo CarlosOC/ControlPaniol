@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>624</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="1" column="0">
+     <widget class="QTableWidget" name="tableWidget_UltimosVales">
+      <property name="editTriggers">
+       <set>QAbstractItemView::NoEditTriggers</set>
+      </property>
+      <property name="defaultDropAction">
+       <enum>Qt::IgnoreAction</enum>
+      </property>
+      <property name="alternatingRowColors">
+       <bool>true</bool>
+      </property>
+      <property name="selectionMode">
+       <enum>QAbstractItemView::ContiguousSelection</enum>
+      </property>
+      <property name="textElideMode">
+       <enum>Qt::ElideRight</enum>
+      </property>
+      <attribute name="verticalHeaderVisible">
+       <bool>false</bool>
+      </attribute>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>624</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuVales">
+    <property name="title">
+     <string>Usuarios</string>
+    </property>
+    <addaction name="actionCambiar_Usuario"/>
+    <addaction name="actionCrear_Usuario"/>
+   </widget>
+   <widget class="QMenu" name="menuProductos">
+    <property name="title">
+     <string>Productos</string>
+    </property>
+    <addaction name="actionAgregar_Producto"/>
+    <addaction name="actionBuscar_Producto"/>
+    <addaction name="actionLista_de_Productos"/>
+   </widget>
+   <widget class="QMenu" name="menuVales_2">
+    <property name="title">
+     <string>Vales</string>
+    </property>
+    <addaction name="actionAgregar_Vale"/>
+    <addaction name="actionBuscar_Vale"/>
+    <addaction name="actionLista_de_Vales"/>
+   </widget>
+   <widget class="QMenu" name="menuEstadistica">
+    <property name="title">
+     <string>Estadistica</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuAyuda">
+    <property name="title">
+     <string>Ayuda</string>
+    </property>
+    <addaction name="actionSobre_Guillermito_System"/>
+   </widget>
+   <widget class="QMenu" name="menuPersonal_Autorizado">
+    <property name="title">
+     <string>Personal Autorizado</string>
+    </property>
+    <addaction name="actionAgregar_Personal_Autorizado"/>
+    <addaction name="actionBuscar_Personal_Autorizado"/>
+    <addaction name="actionVer_Lista_del_Personal_Autorizado"/>
+   </widget>
+   <addaction name="menuVales"/>
+   <addaction name="menuProductos"/>
+   <addaction name="menuVales_2"/>
+   <addaction name="menuPersonal_Autorizado"/>
+   <addaction name="menuEstadistica"/>
+   <addaction name="menuAyuda"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionCambiar_Usuario"/>
+   <addaction name="separator"/>
+   <addaction name="actionAgregar_Producto"/>
+   <addaction name="separator"/>
+   <addaction name="separator"/>
+   <addaction name="actionAgregar_Vale"/>
+   <addaction name="separator"/>
+   <addaction name="separator"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionCambiar_Usuario">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/iconos/Iconos/Usuario.png</normaloff>:/iconos/Iconos/Usuario.png</iconset>
+   </property>
+   <property name="text">
+    <string>Cambiar Usuario</string>
+   </property>
+  </action>
+  <action name="actionCrear_Usuario">
+   <property name="text">
+    <string>Crear Usuario</string>
+   </property>
+  </action>
+  <action name="actionAgregar_Producto">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/iconos/Iconos/producto.png</normaloff>:/iconos/Iconos/producto.png</iconset>
+   </property>
+   <property name="text">
+    <string>Agregar Producto</string>
+   </property>
+  </action>
+  <action name="actionBuscar_Producto">
+   <property name="text">
+    <string>Buscar Producto</string>
+   </property>
+  </action>
+  <action name="actionAgregar_Vale">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/iconos/Iconos/AgregarVale.png</normaloff>:/iconos/Iconos/AgregarVale.png</iconset>
+   </property>
+   <property name="text">
+    <string>Agregar Vale</string>
+   </property>
+  </action>
+  <action name="actionBuscar_Vale">
+   <property name="text">
+    <string>Buscar Vale</string>
+   </property>
+  </action>
+  <action name="actionSobre_Guillermito_System">
+   <property name="text">
+    <string>Guillermito System</string>
+   </property>
+  </action>
+  <action name="actionLista_de_Vales">
+   <property name="text">
+    <string>Lista de Vales</string>
+   </property>
+  </action>
+  <action name="actionLista_de_Productos">
+   <property name="text">
+    <string>Lista de Productos</string>
+   </property>
+  </action>
+  <action name="actionAgregar_Personal_Autorizado">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/iconos/Iconos/personalAutorizado.png</normaloff>:/iconos/Iconos/personalAutorizado.png</iconset>
+   </property>
+   <property name="text">
+    <string>Agregar Personal Autorizado</string>
+   </property>
+  </action>
+  <action name="actionBuscar_Personal_Autorizado">
+   <property name="icon">
+    <iconset resource="iconos.qrc">
+     <normaloff>:/iconos/Iconos/BuscarPersonalAutorizado.png</normaloff>:/iconos/Iconos/BuscarPersonalAutorizado.png</iconset>
+   </property>
+   <property name="text">
+    <string>Buscar Personal Autorizado</string>
+   </property>
+  </action>
+  <action name="actionVer_Lista_del_Personal_Autorizado">
+   <property name="text">
+    <string>Ver Lista del Personal Autorizado</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="iconos.qrc"/>
+ </resources>
+ <connections/>
+</ui>

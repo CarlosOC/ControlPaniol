@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/iconos">
+        <file>Iconos/AgregarVale.png</file>
+        <file>Iconos/Buscar.png</file>
+        <file>Iconos/Configuracion.png</file>
+        <file>Iconos/Usuario.png</file>
+        <file>Iconos/producto.png</file>
+        <file>Iconos/BuscarPersonalAutorizado.png</file>
+        <file>Iconos/personalAutorizado.png</file>
+    </qresource>
+</RCC>
