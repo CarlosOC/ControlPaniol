@@ -28,11 +28,11 @@
 
 | **Login** | **Home** | **Registro Usuario** |
 |---|---|---|
-| ![Login](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla 00 - Login.png) | ![Home](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla 01 - Home.png) | ![Registro_Usuario](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla 02 - NuevoUsuario.png) |
+| ![Login](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) | ![Home](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_01_Home.png) | ![Registro_Usuario](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_02_NuevoUsuario.png) |
 
 | **Nuevo Producto** | **Buscar Producto** | **Listado de Productos** |
 |---|---|---|
-| ![Nuevo_Jugador](https://github.com/CarlosOC/TaTeTi/blob/main/ScreenShot/Nuevo_Jugador.png) | ![Loggin](https://github.com/CarlosOC/TaTeTi/blob/main/ScreenShot/Loggin.png) | ![Campeonato](https://github.com/CarlosOC/TaTeTi/blob/main/ScreenShot/Campeonato.png) |
+| !Nuevo_Producto](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) | ![Buscar_Producto](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) | ![Listado_Productos](https://github.com/CarlosOC/ControlPaniol/tree/main/imagenes/Pantalla_00_Login.png) |
 
 | **Nuevo Vale** | **Buscar Vale** | **Listado de Vales** |
 |---|---|---|
