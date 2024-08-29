@@ -14,10 +14,10 @@
 
 ### Instalación & Ejecucion
 
-1. **Descargar archivo winrar**
+1. **Instalación**
  
 
-2. **Ejecutar Programa**
+2. **Ejecucion**
    
  
 
