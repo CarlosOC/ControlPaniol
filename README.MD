@@ -41,3 +41,14 @@
 | **Nuevo Personal Autorizado** | **Buscar Personal Autorizado** | **Listado de Personal Autorizado** |
 |---|---|---|
 | ![Nuevo_Autorizado](https://github.com/CarlosOC/ControlPaniol/blob/main/imagenes/Pantalla_09_NuevoPersonal.png) | ![Buscar_Autorizado](https://github.com/CarlosOC/ControlPaniol/blob/main/imagenes/Pantalla_10_BuscarPersonal.png) | ![Listado_Personal_Autorizado](https://github.com/CarlosOC/ControlPaniol/blob/main/imagenes/Pantalla_11_ListadoPersonal.png) |
+
+## Contacto
+
+Si tienes alguna pregunta o sugerencia, no dudes en ponerte en contacto conmigo:
+
+- Correo electrónico: carlosoviedolr@gmail.com
+- Linkedin: [https://www.linkedin.com/in/carlosnicolasoviedocodigoni/]
+
+¡Espero que disfrutes trabajando en estos ejercicios tanto como yo disfruto enseñándolos!
+
+Happy coding! 🚀
