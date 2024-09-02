@@ -16,6 +16,10 @@ El proyecto está estructurado en varios archivos clave:
 - `qdialog_agregarautorizados.h` y `qdialog_agregarproducto.h`: Archivos de cabecera que declaran las clases y sus métodos correspondientes.
 - `main.cpp`: Punto de entrada de la aplicación donde se inicia el programa.
 
+## Base de Datos
+
+La aplicación utiliza **SQLite** como sistema de gestión de bases de datos. SQLite es una base de datos ligera y autocontenida que se integra fácilmente con aplicaciones Qt. Todos los datos relacionados con productos y personal autorizado se almacenan en una base de datos SQLite local. No se requiere ninguna configuración de servidor adicional, lo que simplifica la implementación y el uso del sistema.
+
 ## Instalación y Uso
 
 1. **Requisitos:**
