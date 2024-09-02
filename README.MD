@@ -2,27 +2,39 @@
 ## Versión Alpha 1.0
 
 ### Introducción
- 
+Guillermito System es una aplicación desarrollada en Qt para la gestión de inventarios en un pañol. La aplicación permite agregar y administrar productos y personal autorizado de manera eficiente. Su interfaz gráfica intuitiva facilita la operación para los usuarios, permitiendo un control completo sobre los recursos almacenados.
 
 #### Características destacadas:
- 
+- **Gestión de Productos:** Permite agregar productos al inventario, incluyendo detalles como código SAP, código de barras, nombre del producto, stock, descripción, marca, ubicación y si es un producto SHE.
+- **Gestión de Personal Autorizado:** Facilita la inclusión de nuevo personal autorizado, gestionando nombres, apellidos, legajos y sectores.
+## Estructura del Proyecto
 
- 
-### Librerías Utilizadas 
- 
- 
+El proyecto está estructurado en varios archivos clave:
 
-### Instalación & Ejecucion
+- `qdialog_agregarautorizados.cpp`: Implementa la lógica para la adición de personal autorizado al sistema.
+- `qdialog_agregarproducto.cpp`: Maneja la lógica para agregar nuevos productos al inventario.
+- `qdialog_agregarautorizados.h` y `qdialog_agregarproducto.h`: Archivos de cabecera que declaran las clases y sus métodos correspondientes.
+- `main.cpp`: Punto de entrada de la aplicación donde se inicia el programa.
 
-1. **Instalación**
- 
+## Instalación y Uso
 
-2. **Ejecucion**
-   
- 
+1. **Requisitos:**
+   - Qt 5.x o superior.
+   - Un compilador compatible (como GCC o MSVC).
+   - Una base de datos configurada para almacenar los productos y el personal autorizado.
 
-### Versiones de  QT
- 
+2. **Compilación:**
+   - Clona este repositorio:
+     ```bash
+     git clone https://github.com/tuusuario/guillermito-system.git
+     ```
+   - Abre el proyecto en Qt Creator.
+   - Configura el proyecto para tu plataforma (Linux, Windows, macOS).
+   - Compila y ejecuta el proyecto.
+
+3. **Uso:**
+   - Al ejecutar la aplicación, puedes agregar productos y personal autorizado desde las respectivas ventanas de diálogo.
+   - La información ingresada se almacenará en la base de datos configurada y se puede gestionar desde la interfaz.
 
 ### Capturas de pantalla
 
